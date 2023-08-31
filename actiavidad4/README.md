@@ -14,7 +14,7 @@ sudo chmod +x /opt/saludo.sh
 
 2. Se Escribio el archivo `saludo.service` en la ubicación `/etc/systemd/system/`.
 
-![Creacion de Usuarios](/images/44.png)
+![Creacion de Usuarios](/actividad4/images/44.png)
 
 3. Se Ejecuto los siguientes comandos para habilitar y comenzar el servicio:
 
