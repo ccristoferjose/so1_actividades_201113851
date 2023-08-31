@@ -14,7 +14,7 @@ sudo chmod +x /opt/saludo.sh
 
 2. Se Escribio el archivo `saludo.service` en la ubicación `/etc/systemd/system/`.
 
-![Creacion de Usuarios](/actividad4/images/44.png)
+![Creacion de Usuarios](./images/44.png)
 
 3. Se Ejecuto los siguientes comandos para habilitar y comenzar el servicio:
 
@@ -26,9 +26,9 @@ sudo systemctl start saludo.service
 
 ```
 
-![Creacion de Usuarios](/images/22.png)
+![Creacion de Usuarios](./images/22.png)
 
-![Creacion de Usuarios](/images/33.png)
+![Creacion de Usuarios](./images/33.png)
 
 ## Verificación
 
@@ -40,4 +40,4 @@ sudo journalctl -u saludo.service -f
 
 ```
 
-![Creacion de Usuarios](/images/11.png)
+![Creacion de Usuarios](./images/11.png)
