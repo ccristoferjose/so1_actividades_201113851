@@ -1,0 +1,13 @@
+[Unit]
+Description=Un simple script que imprime un saludo y la fecha
+After=network.target
+
+[Service]
+ExecStart=/opt/saludo.sh
+Restart=always
+User=nobody
+RestartSec=3
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target
